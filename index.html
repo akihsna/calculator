@@ -9,13 +9,11 @@
   <div class="container">
     <div class="calculator">
 
-      <!-- Mode Switch -->
       <select id="modeSwitcher" onchange="switchMode()">
         <option value="basic">Basic</option>
         <option value="programmer">Programmer</option>
       </select>
-
-      <!-- BASIC CALCULATOR -->
+      
       <div id="basicSection">
         <input type="text" id="display" readonly>
         <div class="buttons">
@@ -44,7 +42,6 @@
         </div>
       </div>
 
-      <!-- PROGRAMMER SECTION -->
       <div id="programmerSection" style="display: none;">
         <input type="text" id="progInput" placeholder="Enter Number" />
         <select id="conversionType">
